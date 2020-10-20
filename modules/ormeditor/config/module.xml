@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <defaultValues>
+        <name multilanguage="true">Редактор ORM объектов</name>
+        <description multilanguage="true">Позволяет добавить новые поля или скрыть существующие у любых ORM объектов в ReadyScript</description>
+        <version>4.0.4</version>
+        <author>ReadyScript lab.</author>
+    </defaultValues>
+</config>

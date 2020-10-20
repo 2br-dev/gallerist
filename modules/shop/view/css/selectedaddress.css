@@ -1,0 +1,19 @@
+#selectedAddress_queryBox{
+    position: relative;
+}
+
+#selectedAddress_queryBox .ui-autocomplete {
+    list-style: none;
+    position: absolute;
+    background: white;
+    top: 100%;
+    padding: 0;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.06), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+#selectedAddress_queryBox .ui-autocomplete .ui-menu-item {
+    padding: 5px 10px;
+}
+#selectedAddress_queryBox .ui-autocomplete .ui-menu-item:hover {
+    cursor: pointer;
+}
