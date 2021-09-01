@@ -1,0 +1,127 @@
+/*.mfp-content {*/
+/*    background-color: #fafafa;*/
+/*    max-height: 70%;*/
+/*    margin: auto;*/
+/*    overflow-y: auto;*/
+/*    border-radius: 2px;*/
+/*    will-change: top, opacity;*/
+/*    border: 1px solid #AA9859;*/
+/*    padding: 24px;*/
+/*}*/
+.rs-modal.modal {
+    display: block;
+    position: relative;
+}
+#debug-top-block {
+    display: none;
+}
+.material-tooltip {
+    display: none;
+}
+.btn {
+    outline: none;
+}
+.formFieldError {
+    position: absolute;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+.select-city-block {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+h3:first-of-type {
+    margin-top: 0;
+}
+.register-action {
+    margin-top: 35px;
+}
+.input-field .error {
+    left: 0;
+}
+header nav .nav-actions .profile-menu > li .profile-menu-inner,
+header nav .nav-actions .profile-menu:hover .profile-menu-inner {
+    top: calc(100% - 10px);
+}
+.name-account {
+    padding: 0 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+    font-size: 12px;
+    color: #AA9859;
+    text-align: center;
+    font-style: italic;
+}
+.profile-menu .mdi-account-circle {
+    cursor: pointer;
+}
+header nav .nav-actions i.mdi {
+    color: #AA9859;
+    font-size: 21px;
+    line-height: 52px;
+}
+.favorite-header {
+    display: inline-block;
+}
+.rs-favorite .favorite-ico:before {
+    content: "\F02D5";
+}
+.rs-favorite.rs-in-favorite .favorite-ico:before {
+    content: "\F02D1";
+}
+.value.input-field {
+    padding-top: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.hidden-block {
+    display: none;
+}
+.formError {
+    color: red;
+}
+header .favs .count, header .favs-mobile .count {
+    top: 10px;
+    right: 10px;
+}
+.rs-favorite-block.active .count {
+    display: inline;
+}
+.rs-favorite-block .count {
+    display: none;
+}
+.profile-form-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+.avatar-wrapper.hidden-input label {
+    display: none !important;
+}
+.avatar-wrapper.hidden-input.obvious label {
+    display: flex !important;
+}
+input[type="text"] {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.edit-image-actions {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.edit-image-actions a i.mdi {
+    font-size: 24px;
+}
+.modal.open {
+    width: 100%;
+}
+.modal-actions.align-right {
+    text-align: right;
+}
+.modal-actions.align-right button {
+    margin-right: 0;
+}

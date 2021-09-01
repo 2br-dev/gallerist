@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <defaultValues>
+        <name multilanguage="true">Для сайта Gallerist</name>
+        <description multilanguage="true">Для сайта Gallerist</description>
+        <version>4.0.0</version>
+        <author>2Br</author>
+    </defaultValues>
+</config>

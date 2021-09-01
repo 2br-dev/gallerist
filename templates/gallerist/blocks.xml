@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<structure grid_system="none">
+  <page route_id="catalog-front-listproducts" context="theme" template="theme:gallerist/wrapper_catalog.tpl" inherit="1"/>
+  <page route_id="catalog-front-product" context="theme" template="theme:gallerist/wrapper_product.tpl" inherit="1"/>
+  <page route_id="default" context="theme" template="theme:gallerist/wrapper.tpl" inherit="1"/>
+  <page route_id="gallerist-front-authors" context="theme" template="theme:gallerist/wrapper_authors.tpl" inherit="1"/>
+  <page route_id="gallerist-front-editimage" context="theme" template="theme:gallerist/wrapper_editimage.tpl" inherit="1"/>
+  <page route_id="main.index" context="theme" template="theme:gallerist/index.tpl" inherit="1"/>
+  <page route_id="users-front-profile" context="theme" template="theme:gallerist/wrapper_profile.tpl" inherit="1"/>
+  <page route_id="users-front-register" context="theme" template="theme:gallerist/wrapper_register.tpl" inherit="1"/>
+  <hooks>
+    <hook name="catalog-product:images"><![CDATA[testbuy]]></hook>
+    <hook name="catalog-product:images"><![CDATA[test]]></hook>
+    <hook name="catalog-product:rating"><![CDATA[custom]]></hook>
+    <hook name="catalog-product:rating"><![CDATA[demo]]></hook>
+  </hooks>
+  <templateModules/>
+</structure>
