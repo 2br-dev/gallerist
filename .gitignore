@@ -1,4 +1,4 @@
 .idea
-cache
-photo
+/cache
+/storage/photo
 /config.auto.php
